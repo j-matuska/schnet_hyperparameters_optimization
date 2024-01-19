@@ -1,0 +1,110 @@
+[
+    {
+        "representation": "Schnet",
+        "adresar": "6",
+        "batch_size": 10,
+        "split_suffix": "b",
+        "n_parameters": 455,
+        "cutoff": 10.0,
+        "n_rbf": 50,
+        "weight": false,
+        "n_interaction_layers": 6,
+        "loss_landscape_file": "lines=DS_d=0.20_s=25_20_schnetDS"
+    },
+    {
+        "representation": "Schnet",
+        "adresar": "6_rbf35",
+        "batch_size": 10,
+        "split_suffix": "b",
+        "n_parameters": 444,
+        "cutoff": 10.0,
+        "n_rbf": 35,
+        "weight": false,
+        "n_interaction_layers": 6,
+        "loss_landscape_file": "lines=DS_d=0.16_s=20_20_schnetDS"
+    },
+    {
+        "representation": "Schnet",
+        "adresar": "6_rbf20",
+        "batch_size": 10,
+        "split_suffix": "b",
+        "n_parameters": 432,
+        "cutoff": 10.0,
+        "n_rbf": 20,
+        "weight": false,
+        "n_interaction_layers": 6,
+        "loss_landscape_file": "lines=DS_d=0.20_s=25_20_schnetDS"
+    },
+    {
+        "representation": "Schnet",
+        "adresar": "6_7.5Ang_rbf50",
+        "batch_size": 10,
+        "split_suffix": "b",
+        "n_parameters": 455,
+        "cutoff": 7.5,
+        "n_rbf": 50,
+        "weight": false,
+        "n_interaction_layers": 6,
+        "loss_landscape_file": "lines=DS_d=0.20_s=25_20_schnetDS"
+    },
+    {
+        "representation": "Schnet",
+        "adresar": "6_7.5Ang_rbf35",
+        "batch_size": 10,
+        "split_suffix": "b",
+        "n_parameters": 444,
+        "cutoff": 7.5,
+        "n_rbf": 35,
+        "weight": false,
+        "n_interaction_layers": 6,
+        "loss_landscape_file": "lines=DS_d=0.16_s=20_20_schnetDS"
+    },
+    {
+        "representation": "Schnet",
+        "adresar": "6_7.5Ang_rbf20",
+        "batch_size": 10,
+        "split_suffix": "b",
+        "n_parameters": 432,
+        "cutoff": 7.5,
+        "n_rbf": 20,
+        "weight": false,
+        "n_interaction_layers": 6,
+        "loss_landscape_file": "lines=DS_d=0.16_s=20_20_schnetDS"
+    },
+    {
+        "representation": "Schnet",
+        "adresar": "6_5Ang_rbf50",
+        "batch_size": 10,
+        "split_suffix": "b",
+        "n_parameters": 455,
+        "cutoff": 5.0,
+        "n_rbf": 50,
+        "weight": false,
+        "n_interaction_layers": 6,
+        "loss_landscape_file": "lines=DS_d=0.16_s=20_20_schnetDS"
+    },
+    {
+        "representation": "Schnet",
+        "adresar": "6_5Ang_rbf35",
+        "batch_size": 10,
+        "split_suffix": "b",
+        "n_parameters": 444,
+        "cutoff": 5.0,
+        "n_rbf": 35,
+        "weight": false,
+        "n_interaction_layers": 6,
+        "loss_landscape_file": "lines=DS_d=0.16_s=20_20_schnetDS"
+    },
+    {
+        "representation": "Schnet",
+        "adresar": "6_5Ang",
+        "batch_size": 10,
+        "split_suffix": "b",
+        "n_parameters": 455,
+        "cutoff": 5.0,
+        "n_rbf": 20,
+        "weight": false,
+        "n_interaction_layers": 6,
+        "loss_landscape_file": "lines=DS_d=0.20_s=25_20_schnetDS"
+    }
+]
