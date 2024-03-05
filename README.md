@@ -4,7 +4,7 @@ Data for article: SchNetPack hyperparameter optimization for a more reliable top
 ## Neural network Schnet
 
 In folder `calculation_NN` are 
-* Config YAML files used to set the traning of neural network. YAML is Hydra configuration file used by package [SchNetPack] (https://github.com/atomistic-machine-learning/schnetpack). Please refer to manual of SchNetPack on usage.
+* Config YAML files used to set the traning of neural network. YAML is Hydra configuration file used by package [SchNetPack](https://github.com/atomistic-machine-learning/schnetpack). Please refer to manual of SchNetPack on usage.
 * Binary files `best_model` containing neural network model trained in SchNetPack. They can by loaded by torch.
 * File `split.npz`
 
