@@ -7,7 +7,7 @@ run:
   ckpt_path: null
 globals:
   model_path: best_model
-  cutoff: <cutoff>
+  cutoff: 7.5
   lr: 0.0001
   property: DS
   aggregation: sum
@@ -96,7 +96,7 @@ model:
   representation:
     radial_basis:
       _target_: schnetpack.nn.radial.GaussianRBF
-      n_rbf: <n_rbf>
+      n_rbf: 20
       cutoff: ${globals.cutoff}
     _target_: schnetpack.representation.SchNet
     n_atom_basis: 128
@@ -116,13 +116,13 @@ model:
   - _target_: schnetpack.transform.CastTo64
 data:
   _target_: schnetpack.data.AtomsDataModule
-  datapath: in_vivo_80_<split>val.db
+  datapath: in_vivo03.db
   split_file: split.npz
   batch_size: 10
   num_train: 47906
   num_val: 2995
   num_test: null
-  num_workers: 4
+  num_workers: 6
   num_val_workers: null
   num_test_workers: null
   transforms:
