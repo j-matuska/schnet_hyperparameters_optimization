@@ -90,10 +90,7 @@ def extract_keywords(prefix_path, suffix_path):
 
 
 def save_plots(mse, sigma, 
-               intervaly, mse_ds, rel_pocet_ds, mu_ds, sigma_ds, 
-               q, mse_q, rel_pocet_q, mu_q, sigma_q, 
-               n, mse_n, rel_pocet_n, mu_n, sigma_n,
-               torssion, mse_torssion, rel_pocet_torssion, mu_torssion, sigma_torssion,
+               intervaly, mse_ds, rel_pocet_ds, mu_ds, sigma_ds,
                prefix_path, suffix_path, DS_type_label):
     
     # DS vs properties
