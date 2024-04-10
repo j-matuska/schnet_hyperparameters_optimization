@@ -26,6 +26,7 @@ In folder `scripts` are scripts dependend on `ip_explorer` used to calculate los
 
 All necesarry scripts and data to plot a figures in article are in folder `figures`
 * `figueres`
+    * `datasets`: modified datasets and scripts for undersampling and oversampling calculations
     * `scripts/`: scripts to plot a figures
     * `modules/`: python modules used by scripts. Instalation by pip install -e .
     * `data/`: csv and npy files with results from calculations
