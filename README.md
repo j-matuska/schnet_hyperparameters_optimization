@@ -33,7 +33,7 @@ All necesarry scripts and data to plot a figures in article are in folder `figur
 # Authors
 * Jan Matúška
 * Lukáš Bučinský
-* Marián Gáll
+* Marián Gall
 * Michal Pitonák
 * Marek Štekláč
 
